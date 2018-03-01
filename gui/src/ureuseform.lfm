@@ -1,0 +1,11 @@
+inherited frmReuseForm: TfrmReuseForm
+  Left = 348
+  Top = 176
+  Caption = 'Reuse and Adaptation Form'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  inherited btnOk: TBitBtn
+    OnClick = btnOkClick
+  end
+end

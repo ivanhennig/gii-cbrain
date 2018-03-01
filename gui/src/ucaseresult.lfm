@@ -1,0 +1,74 @@
+object frmCaseResult: TfrmCaseResult
+  Left = 439
+  Height = 390
+  Top = 196
+  Width = 604
+  Caption = 'Case Result'
+  ClientHeight = 390
+  ClientWidth = 604
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poOwnerFormCenter
+  LCLVersion = '1.4.4.0'
+  object lblWait: TLabel
+    Left = 0
+    Height = 341
+    Top = 26
+    Width = 604
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'Wait...'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object grid: TDBGrid
+    Left = 0
+    Height = 341
+    Top = 26
+    Width = 604
+    Align = alClient
+    Color = clWindow
+    Columns = <>
+    DataSource = ds
+    FixedCols = 0
+    Flat = True
+    Options = [dgTitles, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    TabOrder = 0
+    OnDrawColumnCell = gridDrawColumnCell
+    OnDblClick = gridDblClick
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 604
+    Caption = 'ToolBar1'
+    TabOrder = 1
+    object btnReuseAdapt: TSpeedButton
+      Left = 1
+      Height = 22
+      Top = 2
+      Width = 150
+      Caption = 'Reuse and adaptation'
+      Flat = True
+      OnClick = btnReuseAdaptClick
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 367
+    Width = 604
+    Panels = <>
+  end
+  object ds: TDataSource
+    DataSet = mem
+    left = 80
+    top = 80
+  end
+  object mem: TMemDataset
+    FieldDefs = <>
+    left = 112
+    top = 80
+  end
+end

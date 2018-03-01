@@ -1,0 +1,28 @@
+inherited dlgSymbolEditUnordered: TdlgSymbolEditUnordered
+  Left = 431
+  Top = 237
+  Caption = 'Symbol Unordered Edit'
+  OnCreate = FormCreate
+  inherited grid: TStringGrid
+    ColCount = 2
+    DefaultColWidth = 80
+    FixedRows = 1
+    RowCount = 2
+    OnColRowDeleted = gridColRowDeleted
+    OnColRowInserted = gridColRowInserted
+    OnDrawCell = gridDrawCell
+    OnSelection = gridSelection
+    OnValidateEntry = gridValidateEntry
+    ColWidths = (
+      80
+      80
+    )
+    RowHeights = (
+      22
+      22
+    )
+    Cells = (
+      0
+    )
+  end
+end

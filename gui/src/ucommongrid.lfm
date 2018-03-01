@@ -1,0 +1,20 @@
+inherited frmCommonGrid: TfrmCommonGrid
+  Left = 767
+  Top = 361
+  Caption = 'frmCommonGrid'
+  object grid: TStringGrid[2]
+    Left = 10
+    Height = 320
+    Top = 10
+    Width = 580
+    ColCount = 0
+    FixedCols = 0
+    FixedRows = 0
+    Flat = True
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goAutoAddRows, goTabs, goSmoothScroll]
+    RowCount = 0
+    TabOrder = 2
+    TitleFont.Height = -12
+    OnKeyPress = gridKeyPress
+  end
+end

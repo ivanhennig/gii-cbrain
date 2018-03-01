@@ -1,0 +1,275 @@
+inherited frmCase: TfrmCase
+  Left = 332
+  Height = 490
+  Top = 105
+  Caption = 'Case'
+  ClientHeight = 490
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  inherited btnOk: TBitBtn
+    Top = 430
+    TabOrder = 2
+  end
+  inherited btnCancel: TBitBtn
+    Top = 430
+    TabOrder = 3
+  end
+  object DividerBevel1: TDividerBevel[2]
+    Left = 0
+    Height = 15
+    Top = 1
+    Width = 600
+    Caption = 'Main'
+    Anchors = [akLeft, akRight]
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object edtCaseName: TEdit[3]
+    Left = 150
+    Height = 23
+    Top = 20
+    Width = 400
+    TabOrder = 0
+  end
+  object edtCaseDescription: TEdit[4]
+    Left = 150
+    Height = 23
+    Top = 55
+    Width = 400
+    TabOrder = 1
+  end
+  object DividerBevel2: TDividerBevel[5]
+    Left = 0
+    Height = 15
+    Top = 89
+    Width = 600
+    Caption = 'Data options'
+    Anchors = [akTop, akLeft, akRight]
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object lblName: TLabel[6]
+    Left = 16
+    Height = 23
+    Top = 20
+    Width = 124
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Name'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object lblDescription: TLabel[7]
+    Left = 16
+    Height = 23
+    Top = 55
+    Width = 124
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Description'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object lblType: TLabel[8]
+    Left = 16
+    Height = 23
+    Top = 115
+    Width = 124
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Type'
+    FocusControl = cbType
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object cbType: TComboBox[9]
+    Left = 150
+    Height = 23
+    Top = 115
+    Width = 200
+    ItemHeight = 15
+    OnChange = cbTypeChange
+    Style = csDropDownList
+    TabOrder = 4
+  end
+  object DividerBevel3: TDividerBevel[10]
+    Left = 0
+    Height = 15
+    Top = 325
+    Width = 600
+    Caption = 'Reasoning options'
+    Anchors = [akTop, akLeft, akRight]
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object lblCaseGlobalSim: TLabel[11]
+    Left = 8
+    Height = 23
+    Top = 350
+    Width = 132
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Similarity method'
+    FocusControl = cbSimilarityFunctions
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object cbSimilarityFunctions: TComboBox[12]
+    Left = 150
+    Height = 23
+    Top = 350
+    Width = 200
+    ItemHeight = 15
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object pnlCaseDB: TPanel[13]
+    Left = 392
+    Height = 170
+    Top = 224
+    Width = 602
+    BevelOuter = bvNone
+    ClientHeight = 170
+    ClientWidth = 602
+    Color = clGreen
+    ParentColor = False
+    TabOrder = 6
+    object lblCaseQuery: TLabel
+      Left = 24
+      Height = 23
+      Top = 30
+      Width = 116
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Query'
+      FocusControl = mmoCaseSQLQuery
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object mmoCaseSQLQuery: TMemo
+      Left = 150
+      Height = 92
+      Top = 30
+      Width = 400
+      Font.Height = -12
+      Font.Name = 'Consolas'
+      ParentFont = False
+      ScrollBars = ssAutoBoth
+      TabOrder = 0
+      WordWrap = False
+    end
+    object lblCaseRelationName: TLabel
+      Left = 24
+      Height = 23
+      Top = 0
+      Width = 116
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Relation name'
+      FocusControl = edtCaseRelationName
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object edtCaseRelationName: TEdit
+      Left = 150
+      Height = 23
+      Top = 0
+      Width = 400
+      TabOrder = 1
+    end
+  end
+  object pnlCaseCSV: TPanel[14]
+    Left = 0
+    Height = 80
+    Top = 150
+    Width = 602
+    BevelOuter = bvNone
+    ClientHeight = 80
+    ClientWidth = 602
+    TabOrder = 7
+    object edtCaseCSVSep: TEdit
+      Left = 150
+      Height = 23
+      Top = 0
+      Width = 56
+      TabOrder = 0
+      Text = ';'
+    end
+    object lblCaseCSVSep: TLabel
+      Left = 24
+      Height = 23
+      Top = 0
+      Width = 116
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'Separator'
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object chkCSVFirstLineTitle: TCheckBox
+      Left = 232
+      Height = 23
+      Top = 0
+      Width = 318
+      AutoSize = False
+      Caption = 'First line with titles'
+      TabOrder = 1
+    end
+    object edtCaseFilename: TFileNameEdit
+      Left = 150
+      Height = 23
+      Top = 35
+      Width = 400
+      Filter = 'CSV files|*.csv|All files|*.*'
+      FilterIndex = 1
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      Flat = True
+      MaxLength = 0
+      TabOrder = 2
+    end
+    object lblCaseFileName: TLabel
+      Left = 24
+      Height = 23
+      Top = 35
+      Width = 116
+      Alignment = taRightJustify
+      AutoSize = False
+      Caption = 'File name'
+      FocusControl = edtCaseFilename
+      Layout = tlCenter
+      ParentColor = False
+    end
+  end
+  object edtCaseMinScore: TFloatSpinEdit[15]
+    Left = 150
+    Height = 23
+    Top = 385
+    Width = 200
+    Alignment = taRightJustify
+    Increment = 0.05
+    MaxValue = 1
+    MinValue = 0
+    TabOrder = 8
+    Value = 0.05
+  end
+  object lblRelevanceScore: TLabel[16]
+    Left = 8
+    Height = 23
+    Top = 385
+    Width = 132
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Relevance score'
+    FocusControl = edtCaseMinScore
+    Layout = tlCenter
+    ParentColor = False
+  end
+end

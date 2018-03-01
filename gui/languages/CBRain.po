@@ -1,0 +1,803 @@
+msgid "Ex.: 8080Ex.: /usr/bin/mongod or c:\\mongo\\bin\\mongod.exe"
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tdlgmetaphoneoptions.caption
+msgctxt "tdlgmetaphoneoptions.caption"
+msgid "Metaphone language"
+msgstr ""
+
+#: tdlgmetaphoneoptions.dividerbevel1.caption
+msgctxt "TDLGMETAPHONEOPTIONS.DIVIDERBEVEL1.CAPTION"
+msgid "Main"
+msgstr ""
+
+#: tdlgmetaphoneoptions.lblmetaphonelanguage.caption
+msgid "Language"
+msgstr ""
+
+#: tdlgnumberedit.caption
+msgctxt "tdlgnumberedit.caption"
+msgid ""
+msgstr ""
+
+#: tdlgnumberedit.dividerbevel1.caption
+msgctxt "TDLGNUMBEREDIT.DIVIDERBEVEL1.CAPTION"
+msgid "Main"
+msgstr ""
+
+#: tdlgnumberedit.lblnumberhigh.caption
+msgid "High bound"
+msgstr ""
+
+#: tdlgnumberedit.lblnumberlow.caption
+msgid "Low bound"
+msgstr ""
+
+#: tdlgnumberstepfunction.caption
+msgid ""
+msgstr ""
+
+#: tdlgnumberstepfunction.dividerbevel1.caption
+msgctxt "TDLGNUMBERSTEPFUNCTION.DIVIDERBEVEL1.CAPTION"
+msgid "Main"
+msgstr ""
+
+#: tdlgnumberstepfunction.lblthreshold.caption
+msgid "Threshold"
+msgstr ""
+
+#: tdlgsymboledit.caption
+msgid "Symbol Edit"
+msgstr ""
+
+#: tdlgsymboledit.grid.columns[0].title.caption
+msgid "Value (Letter and Numbers)"
+msgstr ""
+
+#: tdlgsymboledit.grid.columns[1].title.caption
+msgctxt "TDLGSYMBOLEDIT.GRID.COLUMNS[1].TITLE.CAPTION"
+msgid "Description"
+msgstr ""
+
+#: tdlgsymboleditunordered.caption
+msgid "Symbol Unordered Edit"
+msgstr ""
+
+#: tdlgsymbolorderededit.caption
+msgid "Symbol Ordered Edit"
+msgstr ""
+
+#: tdlgsymbolorderededit.grid.columns[0].title.caption
+msgid "Value (Number)"
+msgstr ""
+
+#: tdlgsymbolorderededit.grid.columns[1].title.caption
+msgctxt "TDLGSYMBOLORDEREDEDIT.GRID.COLUMNS[1].TITLE.CAPTION"
+msgid "Description"
+msgstr ""
+
+#: tfrmattribute.btneditsymbols.caption
+msgid "Edit symbols"
+msgstr ""
+
+#: tfrmattribute.btnsimilarityparams.caption
+msgctxt "tfrmattribute.btnsimilarityparams.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmattribute.caption
+msgctxt "tfrmattribute.caption"
+msgid "Attribute"
+msgstr ""
+
+#: tfrmattribute.dividerbevel1.caption
+msgctxt "tfrmattribute.dividerbevel1.caption"
+msgid "Main"
+msgstr ""
+
+#: tfrmattribute.dividerbevel2.caption
+msgctxt "tfrmattribute.dividerbevel2.caption"
+msgid "Data options"
+msgstr ""
+
+#: tfrmattribute.dividerbevel3.caption
+msgctxt "tfrmattribute.dividerbevel3.caption"
+msgid "Reasoning options"
+msgstr ""
+
+#: tfrmattribute.lbldatatype.caption
+msgid "Data  type"
+msgstr ""
+
+#: tfrmattribute.lbldescription.caption
+msgctxt "tfrmattribute.lbldescription.caption"
+msgid "Description"
+msgstr ""
+
+#: tfrmattribute.lblindex.caption
+msgid "Indexing"
+msgstr ""
+
+#: tfrmattribute.lblname.caption
+msgctxt "tfrmattribute.lblname.caption"
+msgid "Name"
+msgstr ""
+
+#: tfrmattribute.lblsimilaritylocal.caption
+msgctxt "tfrmattribute.lblsimilaritylocal.caption"
+msgid "Similarity method"
+msgstr ""
+
+#: tfrmattribute.lbltype.caption
+msgctxt "tfrmattribute.lbltype.caption"
+msgid "Type"
+msgstr ""
+
+#: tfrmattribute.lblweight.caption
+msgid "Weight"
+msgstr ""
+
+#: tfrmcase.caption
+msgctxt "tfrmcase.caption"
+msgid "Case"
+msgstr ""
+
+#: tfrmcase.chkcsvfirstlinetitle.caption
+msgid "First line with titles"
+msgstr ""
+
+#: tfrmcase.dividerbevel1.caption
+msgctxt "TFRMCASE.DIVIDERBEVEL1.CAPTION"
+msgid "Main"
+msgstr ""
+
+#: tfrmcase.dividerbevel2.caption
+msgctxt "TFRMCASE.DIVIDERBEVEL2.CAPTION"
+msgid "Data options"
+msgstr ""
+
+#: tfrmcase.dividerbevel3.caption
+msgctxt "TFRMCASE.DIVIDERBEVEL3.CAPTION"
+msgid "Reasoning options"
+msgstr ""
+
+#: tfrmcase.edtcasecsvsep.text
+msgid ";"
+msgstr ""
+
+#: tfrmcase.lblcasecsvsep.caption
+msgid "Separator"
+msgstr ""
+
+#: tfrmcase.lblcasefilename.caption
+msgid "File name"
+msgstr ""
+
+#: tfrmcase.lblcaseglobalsim.caption
+msgctxt "TFRMCASE.LBLCASEGLOBALSIM.CAPTION"
+msgid "Similarity method"
+msgstr ""
+
+#: tfrmcase.lblcasequery.caption
+msgid "Query"
+msgstr ""
+
+#: tfrmcase.lblcaserelationname.caption
+msgid "Relation name"
+msgstr ""
+
+#: tfrmcase.lbldescription.caption
+msgctxt "TFRMCASE.LBLDESCRIPTION.CAPTION"
+msgid "Description"
+msgstr ""
+
+#: tfrmcase.lblname.caption
+msgctxt "TFRMCASE.LBLNAME.CAPTION"
+msgid "Name"
+msgstr ""
+
+#: tfrmcase.lblrelevancescore.caption
+msgid "Relevance score"
+msgstr ""
+
+#: tfrmcase.lbltype.caption
+msgctxt "TFRMCASE.LBLTYPE.CAPTION"
+msgid "Type"
+msgstr ""
+
+#: tfrmcaseresult.btnreuseadapt.caption
+msgid "Reuse and adaptation"
+msgstr ""
+
+#: tfrmcaseresult.caption
+msgid "Case Result"
+msgstr ""
+
+#: tfrmcaseresult.lblwait.caption
+msgid "Wait..."
+msgstr ""
+
+#: tfrmcaseresult.toolbar1.caption
+msgctxt "TFRMCASERESULT.TOOLBAR1.CAPTION"
+msgid "ToolBar1"
+msgstr ""
+
+#: tfrmcommon.btncancel.caption
+msgid "Cancel"
+msgstr ""
+
+#: tfrmcommon.caption
+msgid "frmCommon"
+msgstr ""
+
+#: tfrmcommongrid.caption
+msgid "frmCommonGrid"
+msgstr ""
+
+#: tfrminputform.caption
+msgctxt "tfrminputform.caption"
+msgid "Input Form"
+msgstr ""
+
+#: tfrmmain.acteditattribute.caption
+msgid "Edit atribute..."
+msgstr ""
+
+#: tfrmmain.acteditcase.caption
+msgid "Edit case..."
+msgstr ""
+
+#: tfrmmain.acteditproject.caption
+msgid "Edit project..."
+msgstr ""
+
+#: tfrmmain.actinputform.caption
+msgctxt "TFRMMAIN.ACTINPUTFORM.CAPTION"
+msgid "Input Form"
+msgstr ""
+
+#: tfrmmain.actnewattribute.caption
+msgid "New attribute..."
+msgstr ""
+
+#: tfrmmain.actnewcase.caption
+msgid "New case..."
+msgstr ""
+
+#: tfrmmain.actnewproject.caption
+msgid "New project..."
+msgstr ""
+
+#: tfrmmain.actopenproject.caption
+msgid "Open..."
+msgstr ""
+
+#: tfrmmain.actremoveattr.caption
+msgid "Remove attribute"
+msgstr ""
+
+#: tfrmmain.actremovecase.caption
+msgctxt "tfrmmain.actremovecase.caption"
+msgid "Remove case"
+msgstr ""
+
+#: tfrmmain.actremovecase.hint
+msgctxt "TFRMMAIN.ACTREMOVECASE.HINT"
+msgid "Remove case"
+msgstr ""
+
+#: tfrmmain.actremoveproject.caption
+msgctxt "tfrmmain.actremoveproject.caption"
+msgid "Remove project"
+msgstr ""
+
+#: tfrmmain.actremoveproject.hint
+msgctxt "TFRMMAIN.ACTREMOVEPROJECT.HINT"
+msgid "Remove project"
+msgstr ""
+
+#: tfrmmain.actrestartdaemon.caption
+msgid "Restart"
+msgstr ""
+
+#: tfrmmain.actsave.caption
+msgid "Save"
+msgstr ""
+
+#: tfrmmain.actsaveas.caption
+msgid "Save as..."
+msgstr ""
+
+#: tfrmmain.actstartdaemon.caption
+msgid "Start reasoning engine"
+msgstr ""
+
+#: tfrmmain.actstartinternaldb.caption
+msgid "Start internal database"
+msgstr ""
+
+#: tfrmmain.actstopdaemon.caption
+msgid "Stop"
+msgstr ""
+
+#: tfrmmain.caption
+msgid "RBC"
+msgstr ""
+
+#: tfrmmain.menuitem2.caption
+msgctxt "tfrmmain.menuitem2.caption"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnuabout.caption
+msgid "About..."
+msgstr ""
+
+#: tfrmmain.mnuattribute.caption
+msgctxt "TFRMMAIN.MNUATTRIBUTE.CAPTION"
+msgid "Attribute"
+msgstr ""
+
+#: tfrmmain.mnucase.caption
+msgctxt "TFRMMAIN.MNUCASE.CAPTION"
+msgid "Case"
+msgstr ""
+
+#: tfrmmain.mnuexit.caption
+msgid "Exit"
+msgstr ""
+
+#: tfrmmain.mnufile.caption
+msgid "File"
+msgstr ""
+
+#: tfrmmain.mnuhelp.caption
+msgid "Help"
+msgstr ""
+
+#: tfrmmain.mnuonlinehelp.caption
+msgid "Online Help"
+msgstr ""
+
+#: tfrmmain.mnuproject.caption
+msgctxt "tfrmmain.mnuproject.caption"
+msgid "Project"
+msgstr ""
+
+#: tfrmmain.mnusep2.caption
+msgctxt "TFRMMAIN.MNUSEP2.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnusep3.caption
+msgctxt "TFRMMAIN.MNUSEP3.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnusettings.caption
+msgctxt "tfrmmain.mnusettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmmain.opendlg.title
+msgid "Open project"
+msgstr ""
+
+#: tfrmmain.saveproject.title
+msgid "Save project as"
+msgstr ""
+
+#: tfrmmain.toolbar1.caption
+msgctxt "tfrmmain.toolbar1.caption"
+msgid "ToolBar1"
+msgstr ""
+
+#: tfrmproject.caption
+msgctxt "TFRMPROJECT.CAPTION"
+msgid "Project"
+msgstr ""
+
+#: tfrmproject.lbldescription.caption
+msgctxt "TFRMPROJECT.LBLDESCRIPTION.CAPTION"
+msgid "Description"
+msgstr ""
+
+#: tfrmproject.lbldriver.caption
+msgid "Driver"
+msgstr ""
+
+#: tfrmproject.lblexternalconnsettings.caption
+msgid "External connection settings"
+msgstr ""
+
+#: tfrmproject.lblmain.caption
+msgctxt "TFRMPROJECT.LBLMAIN.CAPTION"
+msgid "Main"
+msgstr ""
+
+#: tfrmproject.lblname.caption
+msgctxt "TFRMPROJECT.LBLNAME.CAPTION"
+msgid "Name"
+msgstr ""
+
+#: tfrmproject.lblprojectconnectionname.caption
+msgid "Connection name"
+msgstr ""
+
+#: tfrmproject.lblprojecthost.caption
+msgid "Host"
+msgstr ""
+
+#: tfrmproject.lblprojectpassword.caption
+msgid "Password"
+msgstr ""
+
+#: tfrmproject.lblprojectport.caption
+msgctxt "tfrmproject.lblprojectport.caption"
+msgid "Port"
+msgstr ""
+
+#: tfrmproject.lblprojectusername.caption
+msgid "Username"
+msgstr ""
+
+#: tfrmreuseform.caption
+msgid "Reuse and Adaptation Form"
+msgstr ""
+
+#: tfrmsettings.caption
+msgctxt "TFRMSETTINGS.CAPTION"
+msgid "Settings"
+msgstr ""
+
+#: tfrmsettings.divsettingsmain.caption
+msgctxt "TFRMSETTINGS.DIVSETTINGSMAIN.CAPTION"
+msgid "Main"
+msgstr ""
+
+#: tfrmsettings.edtsettingspathmongo.hint
+msgid "Path to mongod executable, must be set to store cases"
+msgstr ""
+
+#: tfrmsettings.edtsettingspathphp.hint
+msgctxt "tfrmsettings.edtsettingspathphp.hint"
+msgid "Whether using built in case based reasoning service, must set this value."
+msgstr ""
+
+#: tfrmsettings.edtsettingsrpcport.hint
+msgctxt "TFRMSETTINGS.EDTSETTINGSRPCPORT.HINT"
+msgid "Whether using built in case based reasoning service, must set this value."
+msgstr ""
+
+#: tfrmsettings.edtsettingsrpcurl.hint
+msgid "Url to case based reasoning service"
+msgstr ""
+
+#: tfrmsettings.lblprojectport.caption
+msgctxt "TFRMSETTINGS.LBLPROJECTPORT.CAPTION"
+msgid "Port"
+msgstr ""
+
+#: tfrmsettings.lblsettingsmongo.caption
+msgid "Path to mongod"
+msgstr ""
+
+#: tfrmsettings.lblsettingsphp.caption
+msgid "Path to php"
+msgstr ""
+
+#: tfrmsettings.lblsettingsurlservice.caption
+msgid "Url service"
+msgstr ""
+
+#: tfrmsettings.lblsettingsuselocalservices.caption
+msgid "Use local service"
+msgstr ""
+
+#: ustrings.scasetypefile
+msgid "CSV file"
+msgstr ""
+
+#: ustrings.scasetypequery
+msgid "Query statement"
+msgstr ""
+
+#: ustrings.scasetyperelation
+msgid "Table, view or collection"
+msgstr ""
+
+#: ustrings.sconfirmdeletefile
+msgid "Delete file \"%s\"?"
+msgstr ""
+
+#: ustrings.sconfirmexit
+msgid "Confirm exit?"
+msgstr ""
+
+#: ustrings.sconfirmremove
+msgid "Confirm remove?"
+msgstr ""
+
+#: ustrings.sdatatypenumber
+msgid "Number"
+msgstr ""
+
+#: ustrings.sdatatypephrase
+msgid "Phrase"
+msgstr ""
+
+#: ustrings.sdatatypestring
+msgid "String"
+msgstr ""
+
+#: ustrings.sdatatypesymbol
+msgid "Symbol"
+msgstr ""
+
+#: ustrings.sdatatypesymbolordered
+msgid "Ordered symbol"
+msgstr ""
+
+#: ustrings.sdatatypesymbolunordered
+msgid "Unordered symbol"
+msgstr ""
+
+#: ustrings.sdefault
+msgid "-- Default --"
+msgstr ""
+
+#: ustrings.sdisabled
+msgid "-- Disabled --"
+msgstr ""
+
+#: ustrings.serralreadyrunning
+msgid "Already running"
+msgstr ""
+
+#: ustrings.serrcantdelete
+msgid "Unable to delete"
+msgstr ""
+
+#: ustrings.serrcantsave
+msgid "Unable to save"
+msgstr ""
+
+#: ustrings.serrcreatingdir
+msgid "Failed creating dir \"%s\""
+msgstr ""
+
+#: ustrings.serremptyresponse
+msgid "Empty response"
+msgstr ""
+
+#: ustrings.serrmustbegreaterthanprevious
+msgid "Must be greater than previous"
+msgstr ""
+
+#: ustrings.serropening
+msgid "Failed opening \"%s\""
+msgstr ""
+
+#: ustrings.serrselectcase
+msgid "Select a case"
+msgstr ""
+
+#: ustrings.serrselectproject
+msgid "Select a project"
+msgstr ""
+
+#: ustrings.serrservicenotrunning
+msgid "Service is not running"
+msgstr ""
+
+#: ustrings.serrsettingspathmongomissing
+msgid "Path to \"mongo\" executable must be set"
+msgstr ""
+
+#: ustrings.serrsettingspathmongowrong
+msgid "Path to \"mongo\" is wrong"
+msgstr ""
+
+#: ustrings.serrsettingspathphpmissing
+msgid "Path to \"php\" executable must be set"
+msgstr ""
+
+#: ustrings.serrsettingspathphpwrong
+msgid "Path to \"php\" is wrong"
+msgstr ""
+
+#: ustrings.sfunctionequality
+msgid "Exact"
+msgstr ""
+
+#: ustrings.sfunctionnumberlinear
+msgid "Linear"
+msgstr ""
+
+#: ustrings.sfunctionnumberstep
+msgid "Step"
+msgstr ""
+
+#: ustrings.sfunctionstringinsensitive
+msgid "Case-insensitive"
+msgstr ""
+
+#: ustrings.sfunctionstringintersect
+msgid "Intersect"
+msgstr ""
+
+#: ustrings.sfunctionstringintersectmetaphone
+msgid "Intersect and metaphone"
+msgstr ""
+
+#: ustrings.sfunctionstringmetaphone
+msgid "Metaphone"
+msgstr ""
+
+#: ustrings.sfunctionstringsensitive
+msgid "Case-sensitive"
+msgstr ""
+
+#: ustrings.sglobalsimeuclidean
+msgid "Euclidean"
+msgstr ""
+
+#: ustrings.sglobalsimnearest
+msgid "Nearest neighbour"
+msgstr ""
+
+#: ustrings.sgridcasebase
+msgid "New"
+msgstr ""
+
+#: ustrings.sgridcolscore
+msgid "Score"
+msgstr ""
+
+#: ustrings.sgridcolsource
+msgid "Source"
+msgstr ""
+
+#: ustrings.sgridstoredbase
+msgid "Stored"
+msgstr ""
+
+#: ustrings.sno
+msgid "No"
+msgstr ""
+
+#: ustrings.snoresults
+msgid "No results"
+msgstr ""
+
+#: ustrings.sokretrieve
+msgid "Retrieve cases"
+msgstr ""
+
+#: ustrings.sokreuse
+msgid "Reuse case"
+msgstr ""
+
+#: ustrings.soksaveattr
+msgid "Save attribute"
+msgstr ""
+
+#: ustrings.soksavecase
+msgid "Save case"
+msgstr ""
+
+#: ustrings.soksavedef
+msgid "Save options"
+msgstr ""
+
+#: ustrings.soksaveproject
+msgid "Save project"
+msgstr ""
+
+#: ustrings.soksavesettings
+msgid "Save settings"
+msgstr ""
+
+#: ustrings.soksavesymbols
+msgid "Save symbols"
+msgstr ""
+
+#: ustrings.sparammetaphoneinfo
+msgctxt "ustrings.sparammetaphoneinfo"
+msgid "Metaphone language"
+msgstr ""
+
+#: ustrings.sparamnooptions
+msgid "No options"
+msgstr ""
+
+#: ustrings.sparamnumberlinearinfo
+msgctxt "ustrings.sparamnumberlinearinfo"
+msgid "Linear function options"
+msgstr ""
+
+#: ustrings.sparamnumberstepinfo
+msgid "Step function options"
+msgstr ""
+
+#: ustrings.sparamsymbolinfo
+msgid "Symbols"
+msgstr ""
+
+#: ustrings.sparamsymbolorderedinfo
+msgid "Ordered symbols"
+msgstr ""
+
+#: ustrings.sparamsymbolunorderedinfo
+msgid "Unordered symbols "
+msgstr ""
+
+#: ustrings.sselectone
+msgid "-- Select one --"
+msgstr ""
+
+#: ustrings.sservicedbstarting
+msgid "Starting storage engine"
+msgstr ""
+
+#: ustrings.sservicephpstarting
+msgid "Starting CBR engine"
+msgstr ""
+
+#: ustrings.streecoldelete
+msgid "Delete"
+msgstr ""
+
+#: ustrings.streecoldescription
+msgctxt "ustrings.streecoldescription"
+msgid "Description"
+msgstr ""
+
+#: ustrings.streecoledit
+msgid "Edit"
+msgstr ""
+
+#: ustrings.streecolprojects
+msgid "Projects"
+msgstr ""
+
+#: ustrings.streecolweigth
+msgid "Weigth"
+msgstr ""
+
+#: ustrings.stypeinput
+msgid "Input"
+msgstr ""
+
+#: ustrings.stypeinputoutput
+msgid "Input and output"
+msgstr ""
+
+#: ustrings.stypeoutput
+msgid "Output"
+msgstr ""
+
+#: ustrings.svalidation
+msgid "Validation"
+msgstr ""
+
+#: ustrings.svalidationmessageempty
+msgid "Field \"%s\" must have a value"
+msgstr ""
+
+#: ustrings.svalidationnumbergreat
+msgid "Use a number greater than \"%s\" in \"%s\""
+msgstr ""
+
+#: ustrings.svalidationnumberless
+msgid "Use a number lesser than \"%s\" in \"%s\""
+msgstr ""
+
+#: ustrings.svalidationweight
+msgid "Field \"Weight\" must have a value between 0.1 and 1.0"
+msgstr ""
+
+#: ustrings.syes
+msgid "Yes"
+msgstr ""
+

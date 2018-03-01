@@ -1,0 +1,185 @@
+inherited frmProject: TfrmProject
+  Left = 530
+  Top = 247
+  ActiveControl = edtProjectName
+  Caption = 'Project'
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  inherited btnOk: TBitBtn
+    OnClick = btnOkClick
+  end
+  object lblMain: TDividerBevel[2]
+    Left = 0
+    Height = 15
+    Top = 0
+    Width = 600
+    Caption = 'Main'
+    Anchors = [akLeft, akRight]
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object lblName: TLabel[3]
+    Left = 50
+    Height = 23
+    Top = 20
+    Width = 90
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Name'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object edtProjectName: TEdit[4]
+    Left = 150
+    Height = 23
+    Top = 20
+    Width = 400
+    TabOrder = 2
+  end
+  object edtProjectDescription: TEdit[5]
+    Left = 150
+    Height = 23
+    Top = 55
+    Width = 400
+    TabOrder = 3
+  end
+  object lblExternalConnSettings: TDividerBevel[6]
+    Left = 0
+    Height = 15
+    Top = 90
+    Width = 600
+    Caption = 'External connection settings'
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object lblDescription: TLabel[7]
+    Left = 50
+    Height = 23
+    Top = 55
+    Width = 90
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Description'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object cbProjectDriver: TComboBox[8]
+    Left = 150
+    Height = 23
+    Top = 120
+    Width = 400
+    ItemHeight = 15
+    OnChange = cbProjectDriverChange
+    Style = csDropDownList
+    TabOrder = 4
+  end
+  object lblDriver: TLabel[9]
+    Left = 15
+    Height = 23
+    Top = 120
+    Width = 125
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Driver'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object lblProjectUsername: TLabel[10]
+    Left = 15
+    Height = 23
+    Top = 155
+    Width = 125
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Username'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object edtUsername: TEdit[11]
+    Left = 150
+    Height = 23
+    Top = 155
+    Width = 200
+    TabOrder = 5
+  end
+  object edtPassword: TEdit[12]
+    Left = 150
+    Height = 23
+    Top = 190
+    Width = 200
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 6
+  end
+  object lblProjectPassword: TLabel[13]
+    Left = 15
+    Height = 23
+    Top = 190
+    Width = 125
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Password'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object lblProjectConnectionName: TLabel[14]
+    Left = 15
+    Height = 23
+    Top = 225
+    Width = 125
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Connection name'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object edtProjectConnectionName: TEdit[15]
+    Left = 150
+    Height = 23
+    Top = 225
+    Width = 200
+    TabOrder = 7
+  end
+  object lblProjectPort: TLabel[16]
+    Left = 15
+    Height = 23
+    Top = 295
+    Width = 125
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Port'
+    Layout = tlCenter
+    ParentColor = False
+    OnClick = lblProjectPortClick
+  end
+  object edtProjectPort: TSpinEdit[17]
+    Left = 150
+    Height = 23
+    Top = 295
+    Width = 150
+    MaxValue = 0
+    TabOrder = 8
+  end
+  object edtProjectHost: TEdit[18]
+    Left = 150
+    Height = 23
+    Top = 260
+    Width = 400
+    TabOrder = 9
+  end
+  object lblProjectHost: TLabel[19]
+    Left = 15
+    Height = 23
+    Top = 260
+    Width = 125
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Host'
+    Layout = tlCenter
+    ParentColor = False
+  end
+end

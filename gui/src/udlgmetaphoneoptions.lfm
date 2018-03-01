@@ -1,0 +1,66 @@
+inherited dlgMetaphoneOptions: TdlgMetaphoneOptions
+  Left = 389
+  Height = 300
+  Top = 263
+  Width = 400
+  Caption = 'Metaphone language'
+  ClientHeight = 300
+  ClientWidth = 400
+  OnCreate = FormCreate
+  inherited btnOk: TBitBtn
+    Left = 240
+    Top = 240
+  end
+  inherited btnCancel: TBitBtn
+    Left = 88
+    Top = 240
+  end
+  object DividerBevel1: TDividerBevel[2]
+    Left = 0
+    Height = 15
+    Top = 0
+    Width = 400
+    Caption = 'Main'
+    Align = alTop
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object lblMetaphoneLanguage: TLabel[3]
+    Left = 50
+    Height = 23
+    Top = 20
+    Width = 90
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Language'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object cbMetaphoneLanguage: TComboBox[4]
+    Left = 150
+    Height = 23
+    Top = 20
+    Width = 200
+    ItemHeight = 15
+    Items.Strings = (
+      'pt'
+      'en'
+    )
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object mmoTipMetaphone: TMemo[5]
+    Left = 50
+    Height = 100
+    Top = 55
+    Width = 300
+    Color = clInfoBk
+    Lines.Strings = (
+      'Which language should be used while comparing text.'
+    )
+    ReadOnly = True
+    TabOrder = 3
+  end
+end

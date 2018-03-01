@@ -1,0 +1,469 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfrmmain.acteditattribute.caption
+msgid "Edit atribute..."
+msgstr ""
+
+#: tfrmmain.acteditcase.caption
+msgid "Edit case..."
+msgstr ""
+
+#: tfrmmain.acteditproject.caption
+msgid "Edit project..."
+msgstr ""
+
+#: tfrmmain.actinputform.caption
+msgid "Input Form"
+msgstr ""
+
+#: tfrmmain.actnewattribute.caption
+msgid "New attribute..."
+msgstr ""
+
+#: tfrmmain.actnewcase.caption
+msgid "New case..."
+msgstr ""
+
+#: tfrmmain.actnewproject.caption
+msgid "New project..."
+msgstr ""
+
+#: tfrmmain.actopenproject.caption
+msgid "Open..."
+msgstr ""
+
+#: tfrmmain.actremoveattr.caption
+msgid "Remove attribute"
+msgstr ""
+
+#: tfrmmain.actremovecase.caption
+msgctxt "tfrmmain.actremovecase.caption"
+msgid "Remove case"
+msgstr ""
+
+#: tfrmmain.actremovecase.hint
+msgctxt "tfrmmain.actremovecase.hint"
+msgid "Remove case"
+msgstr ""
+
+#: tfrmmain.actremoveproject.caption
+msgctxt "tfrmmain.actremoveproject.caption"
+msgid "Remove project"
+msgstr ""
+
+#: tfrmmain.actremoveproject.hint
+msgctxt "tfrmmain.actremoveproject.hint"
+msgid "Remove project"
+msgstr ""
+
+#: tfrmmain.actrestartdaemon.caption
+msgid "Restart"
+msgstr ""
+
+#: tfrmmain.actsave.caption
+msgid "Save"
+msgstr ""
+
+#: tfrmmain.actsaveas.caption
+msgid "Save as..."
+msgstr ""
+
+#: tfrmmain.actstartdaemon.caption
+msgid "Start reasoning engine"
+msgstr ""
+
+#: tfrmmain.actstartinternaldb.caption
+msgid "Start internal database"
+msgstr ""
+
+#: tfrmmain.actstopdaemon.caption
+msgid "Stop"
+msgstr ""
+
+#: tfrmmain.caption
+msgid "RBC"
+msgstr ""
+
+#: tfrmmain.mnuabout.caption
+msgid "About..."
+msgstr ""
+
+#: tfrmmain.mnuattribute.caption
+msgid "Attribute"
+msgstr ""
+
+#: tfrmmain.mnucase.caption
+msgid "Case"
+msgstr ""
+
+#: tfrmmain.mnuexit.caption
+msgid "Exit"
+msgstr ""
+
+#: tfrmmain.mnufile.caption
+msgid "File"
+msgstr ""
+
+#: tfrmmain.mnuhelp.caption
+msgid "Help"
+msgstr ""
+
+#: tfrmmain.mnuonlinehelp.caption
+msgid "Online Help"
+msgstr ""
+
+#: tfrmmain.mnuproject.caption
+msgid "Project"
+msgstr ""
+
+#: tfrmmain.mnusettings.caption
+msgid "Settings"
+msgstr ""
+
+#: tfrmmain.opendlg.title
+msgid "Open project"
+msgstr ""
+
+#: tfrmmain.saveproject.title
+msgid "Save project as"
+msgstr ""
+
+#: tfrmmain.toolbar1.caption
+msgid "ToolBar1"
+msgstr ""
+
+#: tfrmmain.vt.header.columns[0].text
+msgctxt "tfrmmain.vt.header.columns[0].text"
+msgid "Projects"
+msgstr ""
+
+#: tfrmmain.vt.header.columns[1].text
+msgctxt "tfrmmain.vt.header.columns[1].text"
+msgid "Edit"
+msgstr ""
+
+#: tfrmmain.vt.header.columns[2].text
+msgctxt "tfrmmain.vt.header.columns[2].text"
+msgid "Delete"
+msgstr ""
+
+#: tfrmmain.vt.header.columns[3].text
+msgctxt "tfrmmain.vt.header.columns[3].text"
+msgid "Description"
+msgstr ""
+
+#: tfrmmain.vt.header.columns[4].text
+msgctxt "tfrmmain.vt.header.columns[4].text"
+msgid "Weigth"
+msgstr ""
+
+#: ustrings.scasetypefile
+msgid "CSV file"
+msgstr ""
+
+#: ustrings.scasetypequery
+msgid "Query statement"
+msgstr ""
+
+#: ustrings.scasetyperelation
+msgid "Table, view or collection"
+msgstr ""
+
+#: ustrings.sconfirmdeletefile
+msgid "Delete file \"%s\"?"
+msgstr ""
+
+#: ustrings.sconfirmexit
+msgid "Confirm exit?"
+msgstr ""
+
+#: ustrings.sconfirmremove
+msgid "Confirm remove?"
+msgstr ""
+
+#: ustrings.sdatatypenumber
+msgid "Number"
+msgstr ""
+
+#: ustrings.sdatatypephrase
+msgid "Phrase"
+msgstr ""
+
+#: ustrings.sdatatypestring
+msgid "String"
+msgstr ""
+
+#: ustrings.sdatatypesymbol
+msgid "Symbol"
+msgstr ""
+
+#: ustrings.sdatatypesymbolordered
+msgid "Ordered symbol"
+msgstr ""
+
+#: ustrings.sdatatypesymbolunordered
+msgid "Unordered symbol"
+msgstr ""
+
+#: ustrings.sdefault
+msgid "-- Default --"
+msgstr ""
+
+#: ustrings.sdisabled
+msgid "-- Disabled --"
+msgstr ""
+
+#: ustrings.serralreadyrunning
+msgid "Already running"
+msgstr ""
+
+#: ustrings.serrcantdelete
+msgid "Unable to delete"
+msgstr ""
+
+#: ustrings.serrcantsave
+msgid "Unable to save"
+msgstr ""
+
+#: ustrings.serrcreatingdir
+msgid "Failed creating dir \"%s\""
+msgstr ""
+
+#: ustrings.serremptyresponse
+msgid "Empty response"
+msgstr ""
+
+#: ustrings.serrmustbegreaterthanprevious
+msgid "Must be greater than previous"
+msgstr ""
+
+#: ustrings.serropening
+msgid "Failed opening \"%s\""
+msgstr ""
+
+#: ustrings.serrselectcase
+msgid "Select a case"
+msgstr ""
+
+#: ustrings.serrselectproject
+msgid "Select a project"
+msgstr ""
+
+#: ustrings.serrservicenotrunning
+msgid "Service is not running"
+msgstr ""
+
+#: ustrings.serrsettingspathmongomissing
+msgid "Path to \"mongo\" executable must be set"
+msgstr ""
+
+#: ustrings.serrsettingspathmongowrong
+msgid "Path to \"mongo\" is wrong"
+msgstr ""
+
+#: ustrings.serrsettingspathphpmissing
+msgid "Path to \"php\" executable must be set"
+msgstr ""
+
+#: ustrings.serrsettingspathphpwrong
+msgid "Path to \"php\" is wrong"
+msgstr ""
+
+#: ustrings.sfunctionequality
+msgid "Exact"
+msgstr ""
+
+#: ustrings.sfunctionnumberlinear
+msgid "Linear"
+msgstr ""
+
+#: ustrings.sfunctionnumberstep
+msgid "Step"
+msgstr ""
+
+#: ustrings.sfunctionstringinsensitive
+msgid "Case-insensitive"
+msgstr ""
+
+#: ustrings.sfunctionstringintersect
+msgid "Intersect"
+msgstr ""
+
+#: ustrings.sfunctionstringintersectmetaphone
+msgid "Intersect and metaphone"
+msgstr ""
+
+#: ustrings.sfunctionstringmetaphone
+msgid "Metaphone"
+msgstr ""
+
+#: ustrings.sfunctionstringsensitive
+msgid "Case-sensitive"
+msgstr ""
+
+#: ustrings.sglobalsimeuclidean
+msgid "Euclidean"
+msgstr ""
+
+#: ustrings.sglobalsimnearest
+msgid "Nearest neighbour"
+msgstr ""
+
+#: ustrings.sgridcasebase
+msgid "New"
+msgstr ""
+
+#: ustrings.sgridcolscore
+msgid "Score"
+msgstr ""
+
+#: ustrings.sgridcolsource
+msgid "Source"
+msgstr ""
+
+#: ustrings.sgridstoredbase
+msgid "Stored"
+msgstr ""
+
+#: ustrings.sno
+msgid "No"
+msgstr ""
+
+#: ustrings.snoresults
+msgid "No results"
+msgstr ""
+
+#: ustrings.sokretrieve
+msgid "Retrieve cases"
+msgstr ""
+
+#: ustrings.sokreuse
+msgid "Reuse case"
+msgstr ""
+
+#: ustrings.soksaveattr
+msgid "Save attribute"
+msgstr ""
+
+#: ustrings.soksavecase
+msgid "Save case"
+msgstr ""
+
+#: ustrings.soksavedef
+msgid "Save options"
+msgstr ""
+
+#: ustrings.soksaveproject
+msgid "Save project"
+msgstr ""
+
+#: ustrings.soksavesettings
+msgid "Save settings"
+msgstr ""
+
+#: ustrings.soksavesymbols
+msgid "Save symbols"
+msgstr ""
+
+#: ustrings.sparammetaphoneinfo
+msgid "Metaphone language"
+msgstr ""
+
+#: ustrings.sparamnooptions
+msgid "No options"
+msgstr ""
+
+#: ustrings.sparamnumberlinearinfo
+msgid "Linear function options"
+msgstr ""
+
+#: ustrings.sparamnumberstepinfo
+msgid "Step function options"
+msgstr ""
+
+#: ustrings.sparamsymbolinfo
+msgid "Symbols"
+msgstr ""
+
+#: ustrings.sparamsymbolorderedinfo
+msgid "Ordered symbols"
+msgstr ""
+
+#: ustrings.sparamsymbolunorderedinfo
+msgid "Unordered symbols "
+msgstr ""
+
+#: ustrings.sselectone
+msgid "-- Select one --"
+msgstr ""
+
+#: ustrings.sservicedbstarting
+msgid "Starting storage engine"
+msgstr ""
+
+#: ustrings.sservicephpstarting
+msgid "Starting CBR engine"
+msgstr ""
+
+#: ustrings.streecoldelete
+msgctxt "ustrings.streecoldelete"
+msgid "Delete"
+msgstr ""
+
+#: ustrings.streecoldescription
+msgctxt "ustrings.streecoldescription"
+msgid "Description"
+msgstr ""
+
+#: ustrings.streecoledit
+msgctxt "ustrings.streecoledit"
+msgid "Edit"
+msgstr ""
+
+#: ustrings.streecolprojects
+msgctxt "ustrings.streecolprojects"
+msgid "Projects"
+msgstr ""
+
+#: ustrings.streecolweigth
+msgctxt "ustrings.streecolweigth"
+msgid "Weigth"
+msgstr ""
+
+#: ustrings.stypeinput
+msgid "Input"
+msgstr ""
+
+#: ustrings.stypeinputoutput
+msgid "Input and output"
+msgstr ""
+
+#: ustrings.stypeoutput
+msgid "Output"
+msgstr ""
+
+#: ustrings.svalidation
+msgid "Validation"
+msgstr ""
+
+#: ustrings.svalidationmessageempty
+msgid "Field \"%s\" must have a value"
+msgstr ""
+
+#: ustrings.svalidationnumbergreat
+msgid "Use a number greater than \"%s\" in \"%s\""
+msgstr ""
+
+#: ustrings.svalidationnumberless
+msgid "Use a number lesser than \"%s\" in \"%s\""
+msgstr ""
+
+#: ustrings.svalidationweight
+msgid "Field \"Weight\" must have a value between 0.1 and 1.0"
+msgstr ""
+
+#: ustrings.syes
+msgid "Yes"
+msgstr ""
+

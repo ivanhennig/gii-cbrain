@@ -1,0 +1,13 @@
+TFRMSETTINGS.CAPTION=Settings
+TFRMSETTINGS.EDTSETTINGSPATHPHP.HINT=Whether using built in case based reasoning service, must set this value.
+Ex.: /usr/bin/php or c:\php5\php.exe
+TFRMSETTINGS.LBLSETTINGSPHP.CAPTION=Path to php
+TFRMSETTINGS.DIVSETTINGSMAIN.CAPTION=Main
+TFRMSETTINGS.EDTSETTINGSPATHMONGO.HINT=Path to mongod executable, must be set to store cases
+Ex.: /usr/bin/mongod or c:\mongo\bin\mongod.exe
+TFRMSETTINGS.LBLSETTINGSMONGO.CAPTION=Path to mongod
+TFRMSETTINGS.LBLSETTINGSURLSERVICE.CAPTION=Url service
+TFRMSETTINGS.EDTSETTINGSRPCURL.HINT=Url to case based reasoning service
+TFRMSETTINGS.EDTSETTINGSRPCPORT.HINT=Whether using built in case based reasoning service, must set this value.
+TFRMSETTINGS.LBLPROJECTPORT.CAPTION=Port
+TFRMSETTINGS.LBLSETTINGSUSELOCALSERVICES.CAPTION=Use local service

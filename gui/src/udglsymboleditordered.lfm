@@ -1,0 +1,35 @@
+inherited dlgSymbolOrderedEdit: TdlgSymbolOrderedEdit
+  Left = 586
+  Top = 218
+  Caption = 'Symbol Ordered Edit'
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  inherited grid: TStringGrid
+    ColCount = 2
+    Columns = <    
+      item
+        PickList.Strings = (        )
+        Title.Caption = 'Value (Number)'
+        Width = 179
+      end    
+      item
+        PickList.Strings = (        )
+        Title.Caption = 'Description'
+        Width = 400
+      end>
+    FixedRows = 1
+    RowCount = 2
+    OnValidateEntry = gridValidateEntry
+    ColWidths = (
+      179
+      400
+    )
+    RowHeights = (
+      22
+      22
+    )
+    Cells = (
+      0
+    )
+  end
+end

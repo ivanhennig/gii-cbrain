@@ -1,0 +1,67 @@
+inherited dlgNumberStepFunction: TdlgNumberStepFunction
+  Left = 762
+  Height = 300
+  Top = 364
+  Width = 401
+  Caption = ''
+  ClientHeight = 300
+  ClientWidth = 401
+  OnCreate = FormCreate
+  inherited btnOk: TBitBtn
+    Left = 241
+    Top = 240
+  end
+  inherited btnCancel: TBitBtn
+    Left = 89
+    Top = 240
+  end
+  object DividerBevel1: TDividerBevel[2]
+    Left = 0
+    Height = 15
+    Top = 0
+    Width = 401
+    Caption = 'Main'
+    Align = alTop
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object edtNumberStepParam: TFloatSpinEdit[3]
+    Left = 150
+    Height = 23
+    Top = 20
+    Width = 200
+    Increment = 1
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 2
+    Value = 0
+  end
+  object lblThreshold: TLabel[4]
+    Left = 50
+    Height = 23
+    Top = 20
+    Width = 90
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Threshold'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object mmoTipNumberStepFunction: TMemo[5]
+    Left = 50
+    Height = 100
+    Top = 55
+    Width = 300
+    Color = clInfoBk
+    Lines.Strings = (
+      'The difference between cases are compared to this '
+      'threshold.'
+      'Returns similar when this distance is lesser than, '
+      'otherwise non similar.'
+    )
+    ReadOnly = True
+    TabOrder = 3
+  end
+end

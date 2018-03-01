@@ -1,0 +1,146 @@
+inherited frmSettings: TfrmSettings
+  Left = 335
+  Top = 162
+  Caption = 'Settings'
+  OnCreate = FormCreate
+  inherited btnOk: TBitBtn
+    OnClick = btnOkClick
+    TabOrder = 5
+  end
+  inherited btnCancel: TBitBtn
+    TabOrder = 6
+  end
+  object edtSettingsPathPHP: TFileNameEdit[2]
+    Left = 150
+    Height = 23
+    Hint = 'Whether using built in case based reasoning service, must set this value.'
+    Top = 80
+    Width = 400
+    Filter = 'Exe|*.exe|All files|*.*'
+    FilterIndex = 1
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Flat = True
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object lblSettingsPHP: TLabel[3]
+    Left = 8
+    Height = 23
+    Top = 80
+    Width = 132
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Path to php'
+    FocusControl = edtSettingsPathPHP
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object divSettingsMain: TDividerBevel[4]
+    Left = 0
+    Height = 15
+    Top = 1
+    Width = 600
+    Caption = 'Main'
+    Anchors = [akLeft, akRight]
+    Font.Height = -12
+    Font.Style = [fsBold]
+    LeftIndent = 40
+    ParentFont = False
+  end
+  object edtSettingsPathMongo: TFileNameEdit[5]
+    Left = 150
+    Height = 23
+    Hint = 'Path to mongod executable, must be set to store cases'
+    Top = 140
+    Width = 400
+    Filter = 'Exe|*.exe|All files|*.*'
+    FilterIndex = 1
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Flat = True
+    MaxLength = 0
+    TabOrder = 4
+  end
+  object lblSettingsMongo: TLabel[6]
+    Left = 10
+    Height = 23
+    Top = 140
+    Width = 130
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Path to mongod'
+    FocusControl = edtSettingsPathMongo
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object lblSettingsUrlService: TLabel[7]
+    Left = 8
+    Height = 23
+    Top = 50
+    Width = 132
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Url service'
+    Font.Height = -12
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtSettingsRpcUrl: TEdit[8]
+    Left = 150
+    Height = 23
+    Hint = 'Url to case based reasoning service'
+    Top = 50
+    Width = 400
+    TabOrder = 1
+  end
+  object edtSettingsRpcPort: TSpinEdit[9]
+    Left = 150
+    Height = 23
+    Hint = 'Whether using built in case based reasoning service, must set this value.'
+    Top = 110
+    Width = 150
+    MaxValue = 32767
+    MinValue = 1
+    TabOrder = 3
+    Value = 8080
+  end
+  object lblProjectPort: TLabel[10]
+    Left = 10
+    Height = 23
+    Top = 110
+    Width = 130
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Port'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object cbSettingUseLocalService: TComboBox[11]
+    Left = 150
+    Height = 23
+    Top = 20
+    Width = 100
+    ItemHeight = 15
+    Items.Strings = (
+      'Yes'
+    )
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object lblSettingsUseLocalServices: TLabel[12]
+    Left = 50
+    Height = 23
+    Top = 20
+    Width = 90
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Use local service'
+    FocusControl = cbSettingUseLocalService
+    Layout = tlCenter
+    ParentColor = False
+  end
+end

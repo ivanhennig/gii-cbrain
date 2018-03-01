@@ -1,0 +1,34 @@
+inherited dlgSymbolEdit: TdlgSymbolEdit
+  Left = 423
+  Top = 167
+  Caption = 'Symbol Edit'
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  inherited grid: TStringGrid
+    ColCount = 2
+    Columns = <    
+      item
+        PickList.Strings = (        )
+        Title.Caption = 'Value (Letter and Numbers)'
+        Width = 179
+      end    
+      item
+        PickList.Strings = (        )
+        Title.Caption = 'Description'
+        Width = 400
+      end>
+    FixedRows = 1
+    RowCount = 2
+    ColWidths = (
+      179
+      400
+    )
+    RowHeights = (
+      22
+      22
+    )
+    Cells = (
+      0
+    )
+  end
+end
